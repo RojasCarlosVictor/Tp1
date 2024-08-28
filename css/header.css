@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1867ac;
+    padding: 10px 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 110px; /* Ajusta este valor según el tamaño del logo */
+    margin-right: 15px;
+}
+
+.header-logo h1 {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header-links a {
+    margin-left: 15px;
+}
+
+.header-links img {
+    height: 20px; /* Ajusta este valor según el tamaño de los iconos */
+}

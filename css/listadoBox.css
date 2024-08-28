@@ -1,0 +1,62 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para la sección de cajas de productos */
+.product-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo para cada artículo dentro de la caja de productos */
+.product-box article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-box article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product-box h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-box h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.product-box h2 a:hover {
+    text-decoration: underline;
+}
+
+.product-box p {
+    font-size: 1.1em;
+    color: #555;
+}

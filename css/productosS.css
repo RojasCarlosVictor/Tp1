@@ -1,0 +1,61 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para la ficha del producto */
+.product-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 300px; /* Limita el ancho máximo de cada ficha */
+    margin-left: auto;
+    margin-right: auto; /* Centra las fichas */
+}
+
+.product-details img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.product-details h2 {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-details p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.product-details button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-details button:hover {
+    background-color: #0056b3;
+}

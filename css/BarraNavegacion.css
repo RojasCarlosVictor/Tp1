@@ -1,0 +1,43 @@
+/* Estilos generales de la barra de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+    padding: 10px 20px; /* Espaciado para una mejor presentación */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza Flexbox para los elementos */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias líneas si es necesario */
+}
+
+nav li {
+    margin: 5px 15px; /* Espaciado entre los elementos */
+}
+
+nav a {
+    color: #fff; /* Color de texto blanco para un buen contraste */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 16px; /* Tamaño de fuente adecuado para lectura */
+    padding: 10px 15px; /* Espaciado interno para hacer los enlaces más clicables */
+    transition: background-color 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+nav a:hover {
+    background-color: #555; /* Fondo gris oscuro al pasar el cursor */
+    border-radius: 4px; /* Bordes redondeados para un mejor diseño al hacer hover */
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Cambia la dirección del flex a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos de la lista en pantallas pequeñas */
+    }
+
+    nav li {
+        margin: 10px 0; /* Mayor espaciado entre los elementos en pantallas pequeñas */
+    }
+}

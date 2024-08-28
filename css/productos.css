@@ -1,0 +1,59 @@
+/* Contenedor principal de la sección de productos destacados */
+.productos-destacados {
+    display: flex; /* Utiliza flexbox para organizar los productos en una fila */
+    justify-content: space-around; /* Distribuye los productos de manera uniforme con espacio entre ellos */
+    margin-top: 20px; /* Añade un margen superior para separar esta sección del contenido anterior */
+}
+
+/* Estilo para cada contenedor individual de producto */
+.producto {
+    text-align: center; /* Centra el contenido del producto (imagen, texto, botones) */
+    border: 1px solid #ccc; /* Añade un borde gris claro alrededor de cada producto */
+    padding: 10px; /* Añade espacio interior dentro del contenedor del producto */
+    border-radius: 5px; /* Redondea las esquinas del contenedor del producto */
+    width: 150px; /* Fija el ancho de cada contenedor de producto */
+}
+
+/* Estilo para las imágenes dentro de cada producto */
+.producto img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen al ajustar el ancho */
+    border-radius: 5px; /* Redondea las esquinas de la imagen */
+}
+
+/* Contenedor del contador de cantidad */
+.contador {
+    display: flex; /* Utiliza flexbox para organizar el contenido en una fila */
+    justify-content: center; /* Centra los botones y el contador horizontalmente */
+    align-items: center; /* Alinea los botones y el contador verticalmente en el centro */
+    margin: 10px 0; /* Añade márgenes arriba y abajo del contador */
+}
+
+/* Estilo para los botones de incrementar y disminuir cantidad */
+.contador button {
+    padding: 5px 10px; /* Añade espacio interior dentro de los botones */
+    font-size: 16px; /* Establece el tamaño de la fuente dentro de los botones */
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar sobre los botones */
+}
+
+/* Estilo para el número que muestra la cantidad de productos */
+.contador span {
+    margin: 0 10px; /* Añade espacio a los lados del número de cantidad */
+    font-size: 16px; /* Establece el tamaño de la fuente para el número de cantidad */
+}
+
+/* Estilo para el botón de compra */
+.btn-comprar {
+    display: inline-block; /* Permite que el botón se comporte como un elemento en línea con tamaño */
+    padding: 5px 15px; /* Añade espacio interior dentro del botón de compra */
+    background-color: #007bff; /* Establece el color de fondo azul del botón */
+    color: white; /* Establece el color del texto del botón en blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    border-radius: 5px; /* Redondea las esquinas del botón de compra */
+    transition: background-color 0.3s; /* Añade una transición suave al cambiar el color de fondo */
+}
+
+/* Efecto hover para el botón de compra */
+.btn-comprar:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón cuando el cursor está sobre él */
+}
